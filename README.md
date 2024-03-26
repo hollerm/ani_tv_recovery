@@ -26,7 +26,7 @@ Note that the code in particular depends on [pyopencl](https://pypi.org/project/
 
 ## Examples
 
-* To run a quick demo example, call "python demo_tv_recon.py" in a terminal. This should compute results for a simple experiment and store the result in the "results" folder and resulting images in the "images" folder.
+* To run a quick demo example, call "python demo_tv_recon.py" in a terminal. This should compute results for a simple experiment and store them in the "results" folder and resulting images in the "images" folder.
 
 * To re-compute experiments of the paper, call "reproduce_experiments.py". This will compute all results of the paper and the corresponding images and plots (this might take a while). To select only specific results, see the source code of "reproduce_experiments.py" and select only specific experiments.
 
@@ -47,7 +47,7 @@ MH is currently affiliated with the Department of Mathematics and Scientific Com
 ## Publications
 If you use this code, please cite the following associated publication.
 
-* M. Holler and B. Wirth. Exact reconstruction and reconstruction from noisy data with anisotropic total variation. To appear in SIAM Journal on Mathematical Analysis, 2023. [arxiv](https://arxiv.org/abs/2207.04757)
+* M. Holler and B. Wirth. Exact reconstruction and reconstruction from noisy data with anisotropic total variation. To appear in SIAM Journal on Mathematical Analysis, 2023. [arXiv](https://arxiv.org/abs/2207.04757)
 
 ## License
 The code in this project is licensed under the GPLv3 license - see the [LICENSE](LICENSE) file for details.
