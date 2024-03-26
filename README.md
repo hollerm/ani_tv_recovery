@@ -18,14 +18,9 @@ All required python packages can be found in the requirement.txt file. We recome
 
 ```bash
 python -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
-
-After installation, don't forget to activate the environment with 
-```bash
-source .venv/bin/activate
-```
-
 
 Note that the code in particular depends on [pyopencl](https://pypi.org/project/pyopencl/), for which platform dependent, suitable drivers must be installed. Please see [PyOpenCL's documentation](https://documen.tician.de/pyopencl/) for details. For performance reasons, we recommend to use GPU support to run the code.
 
