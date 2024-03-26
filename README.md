@@ -26,9 +26,17 @@ Note that the code in particular depends on [pyopencl](https://pypi.org/project/
 
 ## Examples
 
-* To run a quick demo example, call "python demo_tv_recon.py" in a terminal. This should compute results for a simple experiment and store them in the "results" folder and resulting images in the "images" folder.
+* To run a quick demo example, call 
+```bash
+python demo_tv_recon.py
+```
+in a terminal. This should compute results for a simple experiment and store them in the "results" folder and resulting images in the "images" folder.
 
-* To re-compute experiments of the paper, call "reproduce_experiments.py". This will compute all results of the paper and the corresponding images and plots (this might take a while). To select only specific results, see the source code of "reproduce_experiments.py" and select only specific experiments.
+* To re-compute experiments of the paper, call 
+```bash
+reproduce_experiments.py
+```
+This will compute all results of the paper and the corresponding images and plots (this might take a while). To select only specific results, see the source code of "reproduce_experiments.py" and select only specific experiments.
 
 ## Important modules
 
