@@ -4,7 +4,7 @@ This repository provides the source code for the paper "Exact reconstruction and
 ## Requirements and Installation
 
 
-The code was written and tested with Python 3.10.13 under Linux. We recomend to use pyenv (tested with version 2.3.35) to chose the correct python version, in which case, after typing
+The code was written and tested with Python 3.10.13 under Linux. We recomend to use pyenv (tested with version 2.3.35) to choose the correct python version, in which case, after typing
 
 ```bash
 pyenv install 3.10.13
