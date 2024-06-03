@@ -34,7 +34,7 @@ in a terminal. This should compute results for a simple experiment and store the
 
 * To re-compute experiments of the paper, call 
 ```bash
-reproduce_experiments.py
+python reproduce_experiments.py
 ```
 This will compute all results of the paper and the corresponding images and plots (this might take a while). To select only specific results, see the source code of "reproduce_experiments.py" and select only specific experiments.
 
